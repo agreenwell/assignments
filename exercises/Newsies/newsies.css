@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-stretch: expanded;
+    font-family: cursive;
+    font-size: 50pt
+}
+
+h2 {
+    text-align: center
+}
+
+h5 {
+    text-align: left;
+    border: 2px solid black;
+    width: 100%;
+    display: inline-block;
+    font-style: italic
+}
+
+img {
+    width: 50%;
+    
+}
+
+p {
+    line-height: 2;
+    text-align: justify;
+    padding: 12px
+    
+}
+
+h4 {
+    text-align: right;
+    border: 1px solid black;
+    width: 100%;
+    display: inline-block;
+}
+
+section {
+    clear: left
+}
+
+html {
+    background-color: lightgray
+}

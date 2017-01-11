@@ -1,0 +1,10 @@
+h1 {
+    border: 1px dashed red;
+    width: 100%;
+    display: inline-block;
+}
+
+span {
+    border: 1px dashed blue;
+/*    display: block;*/
+}
