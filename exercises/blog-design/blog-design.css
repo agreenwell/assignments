@@ -1,0 +1,38 @@
+img {
+    display: block;
+    margin: auto;
+    width: 75%
+}
+
+header {
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    padding-top: 5pt;
+}
+
+div {
+    border-style: solid;
+    padding: 10pt;
+    position: fixed;
+    top: 10px;
+    background-color: white;
+    margin-top: 5pt;
+}
+
+div1 {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+h4 {
+    text-align: right;
+    font-style: italic;
+    color: gray
+}
+
+img1 {
+    width: 100%
+}

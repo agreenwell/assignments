@@ -1,0 +1,47 @@
+body {
+    background-color: darkturquoise;
+}
+
+header {
+    text-align: center;
+    font-family: "Super Mario 256", Arial Black, sans-serif;
+    font-size: 50pt;
+    color: #59ed54;
+    padding-top: 20pt;
+    
+}
+
+footer {
+    font-family: "Arial Black", Gadget, sans-serif;
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    background-color: yellow; 
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+div {
+    width: 33%;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+form {
+    width: 33%;
+    margin-left: 35%
+}

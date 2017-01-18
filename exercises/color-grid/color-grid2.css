@@ -4,7 +4,9 @@
 }
 
 body {
+    @media (min-width: 768)
     width: 600pt;
+ 
 }
 
 .box{
@@ -40,5 +42,5 @@ body {
     width: 25%;
     height: 100pt;
     background-color: #E76E34;
-    border: 5pt solid white;
+    border: 5pt solid white
 }
