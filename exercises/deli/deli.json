@@ -1,0 +1,70 @@
+{
+    "appetizers":[
+        {
+            "name": "Mozzarella Sticks",
+            "description": "Delicious deep-fried mozzerella with a side of homemade marinara for dipping!",
+            "ingredients": ["mozerella", "beer batter", "italian spices and seasonings", "marinara sauce"]
+        },
+        {
+            "name": "Potato Skins",
+            "description": "Potato skins baked to perfection topped with melted cheese, bacon bits, chives and drizzled with sour cream..... It's sure to be a group favorite!",
+            "ingredients": ["potato skin", "cheddar cheese", "bacon", "chives", "sour cream"]
+        },
+        {
+            "name": "Buffalo Wings",
+            "description": "Things wings have a bite, but nothing to be afraid of.  Try dipping it in our homemade blue cheese dressing to cool them down and add some terrific flavor! Served with carrots and celery sticks.",
+            "ingredients": ["chicken wings", "buffalo sauce", "blue cheese dressing", "carrots", "celery"]
+        },
+    ],
+    
+    "cold sandwiches":[
+        {
+            "name": "Turkey",
+            "description": "Moist, freshly-carved turkey breast is a healthy, delicious choice.",
+            "ingredients": ["sourdough bread", "turkey breast", "tomatoes", "lettuce", "red onions", "mayonanaise", "mustard"]
+        },
+        {
+            "name": "Roast Beef",
+            "description": "Savory, flavorful roast beef is a delicious, traditional lunchtime staple.",
+            "ingredients": ["rye bread", "roast beef loin", "provolone cheese", "onions", "lettuce", "green peppers"]
+        },
+        {
+            "name": "Chicken Caesar",
+            "description": "Perfectly roasted chicken covered in delicious caesar dressing. Not your typically chicken sandwich!",
+            "ingredients": ["italian bread", "chicken breast", "caesar dressing", "lettuce", "parmesan cheese"]
+        },
+    ],
+
+ "hot sandwiches":[
+        {
+            "name": "BLT",
+            "description": "American classic, thick cut bacon paired with crip lettuce and fresh tomatoes make this sandwich local favorite!",
+            "ingredients": ["white bread", "bacon", "lettuce", "tomatoes", "mayonnaise"]
+        },
+        {
+            "name": "Reuben",
+            "description": "This german-inspired sandwich is sure to wake up your tastebuds.",
+            "ingredients": ["rye bread", "corned beef", "sauerkraut", "swiss cheese", "1000 island dressing"]
+        },
+        {
+            "name": "Tuna Melt",
+            "description": "This sandwich will take you back to your childhoom.  Deliious tuna on white bread with melted cheddar to top it off. Does it get better than this?",
+            "ingredients": ["white breead", "tuna", "celery", "mayonnaise", "cheddar cheese"]
+        },
+    ],
+    
+     "desserts":[
+        {
+            "name": "Milk and cookies",
+            "description": "Ice-cold milk served with 2 warm chocolate chip cookies. Need we say more?",
+            "ingredients": ["1% milk", "chocolate chips", "cookie",]
+        },
+        {
+            "name": "New York Cheesecake",
+            "description": "Creamy, smooth, sweet. Topped with strawberries, this will put a smile on your face.",
+            "ingredients": ["cheesecake", "strawberry"]
+        },
+    ],
+},
+
+ 

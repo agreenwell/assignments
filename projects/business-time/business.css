@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://static.pexels.com/photos/96409/pexels-photo-96409.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: gray
+}
+
+header {
+    color: grey;
+    font-family: "Daniel-Regular", Georgia, Serif;
+    font-size: 3.5em;
+    padding-top: 10pt;
+    padding-left: 60
+}
+
+a {
+    color: white;
+    padding-left: 40pt;
+    font-family: "daniel-regular", Georgia, Serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-spacing: 
+}
+
+a:hover {
+    text-decoration: overline
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: gray;
+    text-align: center;
+    }

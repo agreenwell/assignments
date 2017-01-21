@@ -1,0 +1,65 @@
+body {
+    background-image: url("low_contrast_linen_@2X.png")
+}
+
+
+header {
+    color: grey;
+    font-family: "Daniel-Regular", Georgia, Serif;
+    font-size: 2em;
+    padding-top: 10pt;
+    padding-left: 60
+}
+
+a {
+    color: white;
+    font-family: "daniel-regular", Georgia, Serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: auto 0
+}
+
+a:hover {
+    text-decoration: overline
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: gray;
+    text-align: center;
+    }
+
+h1 {
+    text-align: center;
+    font-family: "Daniel-Regular", Georgia, Serif;
+    font-size: 55pt;
+    text-decoration: underline
+}
+
+h4 {
+    text-align: left;
+    font-family: "My Type of Font", Georgia, Serif;
+    font-size: 23pt;
+    color: white;
+    padding-bottom: 15pt
+}
+
+h3 {
+    text-align:left;
+    font-family: "My Type of Font", Georgia, Serif;
+    font-size: 35pt;
+}
+
+p {
+    font-family: "My Type of Font", Georgia, Serif;
+    font-size: 30pt
+}
+
+img {
+    padding-left: 2%;
+    padding-bottom: 40pt;
+}
