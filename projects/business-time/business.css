@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    color: grey;
+    color: white;
     font-family: "Daniel-Regular", Georgia, Serif;
     font-size: 3.5em;
     padding-top: 10pt;
@@ -19,7 +19,7 @@ a {
     font-family: "daniel-regular", Georgia, Serif;
     font-size: 1.5em;
     text-decoration: none;
-    border-spacing: 
+    border-spacing:
 }
 
 a:hover {
@@ -34,4 +34,12 @@ footer {
     padding: 1rem;
     background-color: gray;
     text-align: center;
-    }
+}
+
+h4 {
+    text-align: left;
+    font-family: "My Type of Font", Georgia, Serif;
+    font-size: 18pt;
+    color: white;
+    padding-bottom: 15pt;
+    

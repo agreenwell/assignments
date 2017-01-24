@@ -7,8 +7,7 @@ header {
     font-family: "Daniel-Regular", Georgia, Serif;
     font-size: 2em;
     padding-top: 10pt;
-    padding-left: 60;
-
+    padding-left: 60
 }
 
 a {
@@ -20,7 +19,7 @@ a {
 }
 
 a:hover {
-    text-decoration: overline
+    text-decoration: overline;
 }
 
 footer {
@@ -31,7 +30,6 @@ footer {
     padding: 1rem;
     background-color: gray;
     text-align: center;
-    z-index: 10;
 }
 
 h1 {
@@ -39,34 +37,17 @@ h1 {
     font-family: "Daniel-Regular", Georgia, Serif;
     font-size: 55pt;
     text-decoration: underline;
-    color: black
-}
-
-h4 {
-    text-align: left;
-    font-family: "My Type of Font", Georgia, Serif;
-    font-size: 18pt;
-    color: white;
-    padding-bottom: 20pt
-}
-
-h3 {
-    text-align: left;
-    font-family: "My Type of Font", Georgia, Serif;
-    font-size: 28pt;
     color: black;
 }
 
-p {
-    font-family: "My Type of Font", Georgia, Serif;
-    font-size: 20pt;
-    width: 60%;
-    text-align: center;
-    margin: auto;
-    color: black
+img {
+    width: 75%;
+    padding-bottom: 20pt;
 }
 
-img {
-    padding-bottom: 40pt;
-    width: 100%;
+h3 {
+    text-align: center;
+    font-family: "Daniel-Regular", Georgia, Serif;
+    font-size: 200%;
+    color: black;
 }
