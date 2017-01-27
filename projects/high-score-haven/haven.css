@@ -7,7 +7,8 @@ h1 {
     width: 100%;
     text-align: center;
     color: blue;
-    font-size: 400%
+    font-size: 400%;
+    padding-bottom: 30pt
 }
 
 h2 {
@@ -37,7 +38,7 @@ td {
     font-size: 75%;
     padding-top: 10pt;
     padding-bottom: 10pt;
-    padding-left: 5pt
+    padding-left: 5pt;
 }
 
 

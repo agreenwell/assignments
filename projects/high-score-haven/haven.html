@@ -9,41 +9,43 @@
     <h1>HIGH-SCORE HAVEN</h1>
     <h2>Enter your stats....</h2>
     
-        <form>
-            Full Name: <input type="text" id="fullname"> &nbsp;&nbsp;&nbsp;
+        <form id="form_id">
+            Name: <input type="text" id="name"> 
+            &nbsp;&nbsp;&nbsp;
             Game: <input type="text" id="game"> 
             &nbsp;&nbsp;&nbsp;
-            Date of Score: <script type="text/javascript"
-            src="http://www.snaphost.com/jquery/Calendar.aspx"></script>  &nbsp;&nbsp;&nbsp;
-            High Score: <input type="text" id="score"> &nbsp;&nbsp;&nbsp;
+            Date of Score: <input type="text" id="date">  &nbsp;&nbsp;&nbsp;
+            High Score: <input type="text" id="score">
+            <br>
+            <br>
+            <input type="checkbox" name="checkbox" value="checkbox" id="checkbox"><label for="checkbox"> Trash Talk?</label>
             
             <output type="text" name="total-coins"></output> <br/>
         </form>
         
         <button type="button" id="score-submit">Submit Your Score!</button>
     
-    <table>
+    <table id="scores">
         <tr>
-            <th>Full Name</th>
+            <th>Name</th>
             <th>Game</th>
             <th>Date of Score</th>
             <th>High Score</th>
-            <th>Date Submitted</th>
-            
+            <th>Trash Talk</th>  
         </tr>
-        <tr>
-            <td>insert name</td>
-            <td>insert game</td>
-            <td>insert date</td>
-            <td>insert score</td>
-            <td>submitted date</td>
-        </tr>
+      
    
         
     </table>
-    
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="haven.js"></script>
+  
+  
+  
 </body>
 </html>
-
 
 
