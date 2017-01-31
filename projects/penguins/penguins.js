@@ -8,8 +8,8 @@ function Team(name, population){
     }
 }
 
-var penguins = new Team("Penguins", "100000");
-var communists = new Team("Communists", "100000");
+var penguins = new Team("Penguins", "1000000");
+var communists = new Team("Communists", "1000000");
 
 function sendNuke(party, onHit, onMiss){
     var didNukeHit = generateRandomNumber(0,9)
