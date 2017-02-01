@@ -1,0 +1,174 @@
+body {
+    background-color: #FFFFFF;
+}
+
+li {
+    font-family: "Avenir LT Std", Helvetica Neue, sans-serif;
+    letter-spacing: .1em;
+    font-size: .9em;
+    display: inline;
+    padding-left: 23pt;
+    padding-right: 23pt;
+    margin-top: 10pt;
+}
+
+
+ul.topnav li a {
+    text-decoration: none;
+    color: black
+}
+
+.topnav {
+    margin-top: 8pt
+}
+header {
+    margin-top: 15pt;
+    height: 84pt;
+    width: 100%
+    
+}
+
+.searchInput {
+    background-image: url(mglass.png );
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    margin-top: 8pt
+}
+
+firstSlideshowImage {
+    width: 50pt
+}
+
+footer {
+    height: 55pt;
+    align-content: center;
+    background-color: #FEE9DF;
+    width: 100%;
+    margin-bottom: 50px
+}
+
+.emailInput {
+    width: 22%;
+    align-items: center;
+    background-image: url(email-icon2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 17pt;
+    margin-left: 39%;
+    margin-right: 39%
+}
+
+span {
+    padding-left: 25%;
+    padding-right: 25%;
+    display: inline-block;
+    position: relative;
+    font-family: "Avenir LT Std", Helvetica Neue, sans-serif;
+    color: darkgray; 
+}
+
+span:after,
+span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid darkgray ;
+    top: 0;
+    width: 100px;
+}
+
+span:before {
+    right: 58%;
+    margin-right: 20px;
+}
+span:after {
+    left: 58%;
+    margin-left: 20px;    
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bebas Neue Regular", sans-serif;
+    letter-spacing: .05em;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.bottomH5 {
+    text-align: center;
+    font-family: "Avenir LT Std", Helvetica Neue, sans-serif;
+    color: darkgray;
+    font-style: italic;
+}
+
+.spanTotal {
+    margin-left: 150pt;
+}
+
+.blog1Image {
+    padding-top: 35px;
+    width: 100%;  
+}
+
+p {
+    width: 100%;
+    font-family: "Avenir LT Std", Helvetica Neue, sans-serif;
+    margin-top: 10pt;
+    font-size: 1.1em
+}
+
+button {
+    padding: 10pt;
+    background-color: white;
+    color: darkgray;
+    font-family: "Bebas Neue Regular", sans-serif;
+    width: 16%;
+    margin-right: 42%;
+    margin-left: 42%;
+    margin-bottom: 15pt;    
+}
+
+h6 {
+    float: right;
+}
+
+.spanTotalRelated {
+    margin-left: 150pt;
+}
+
+.relatedSpan {
+    padding-left: 25%;
+    padding-right: 25%;
+    display: inline-block;
+    position: relative;
+    font-family: "Bebas Neue Regular", sans-serif;
+    color: darkgray; 
+}
+
+.relatedSpan:after,
+.relatedSpan:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid darkgray ;
+    top: 0;
+    width: 330px;
+}
+
+.relatedSpan:before {
+    right: 58%;
+    margin-right: 20px;
+}
+.relatedSpan:after {
+    left: 58%;
+    margin-left: 20px;    
+}
+
+.relatedPhotos {
+    width: 24%;
+    padding-left: 10pt;
+    padding-right: 10pt
+}
+
