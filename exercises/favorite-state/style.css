@@ -1,0 +1,67 @@
+body {
+    background-image: url(background.jpg)
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-bottom: black solid 10pt;
+    border-top: black solid 10pt
+}
+
+li {
+    color: white
+}
+
+.flag {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: black solid 5pt
+}
+
+.para {
+    margin-top: 420pt;
+    font-family: "Avenir";
+    font-size: 20pt;
+    color: white;
+    width: 100%
+}
+
+h1 {
+    text-align: center;
+    font-size: 100pt;
+    font-family: "Vonique 92";
+    color: white;
+}
+
+h3 {
+    font-family: "Vonique 92";
+    text-align: center;
+    color: white;
+    font-size: 40pt;
+    text-decoration: underline;
+    padding-bottom: 15pt;
+}
+
+nav {
+    font-family: "Avenir";
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    background-color: black;
+    border: white solid 2pt
+}
+
+a {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}

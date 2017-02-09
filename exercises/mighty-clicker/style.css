@@ -1,0 +1,37 @@
+body {
+    background-image: url(congruent_pentagon.png);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 100pt;
+    font-family: "Daniel", Gadget, sans-serif;
+}
+
+.h1 {
+    font-size: 90pt;
+}
+
+.red {
+    background-color: #f96161;
+    color: white;
+    font-family: "Daniel", Gadget, sans-serif;
+    font-size: 2em;
+}
+
+.blue {
+    background-color: #52f2ea;
+    color: white;
+    font-family: "Daniel", Gadget, sans-serif;
+    font-size: 2em;
+}
+
+button {
+    width: 100%;
+    padding: 20pt;
+}
+
+.numbers {
+    text-align: center;
+    font-family: "Daniel", Gadget, sans-serif;
+}

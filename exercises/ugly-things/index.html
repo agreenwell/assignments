@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="UglyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ugly Things</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <header>Ugly Things</header>
+</head>
+
+<body ng-controller="UglyController">
+    <form class="row">
+            <div class="col-sm-2"></div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="Title" ng-model="space.name">
+                </div>
+            <div class="col-sm-1"></div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="Image URL" ng-model="space.image">
+                </div>
+            <div class="col-sm-1"></div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="Description" ng-model="space.description">
+                </div>
+            <div class="col-sm-2"></div>
+     </form>
+<button ng-click="addUgly()">Submit</button>
+    
+
+    <section class="output" ng-repeat="something in ugly">
+        <div class="col-sm-12">
+            <h2>{{ something.name }}</h2>
+            <img ng-src="{{ something.image }}">
+            <h2 class="bottomDescription">{{ something.description }}</h2>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+

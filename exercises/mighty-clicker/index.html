@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="clickApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mighty Clicker!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+</head>
+
+<body ng-controller="myController">
+    <header>
+        <div>
+            <h1>Mighty Clicker</h1>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3">
+            <h2 ng-model="blue" class="numbers">{{ blueCount }}</h2>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3">
+            <h2 ng-model="red" class="numbers">{{ redCount }}</h2>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>,
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3">
+            <button class="blue" ng-click="blueClick(blue, red)">Click Me!</button>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3">
+            <button class="red" ng-click="redClick(red, blue)">Click Me!</button>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src='Services/blue.js'></script>
+    <script src='Services/red.js'></script>
+</body>
+
+</html>

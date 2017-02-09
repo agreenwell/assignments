@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://wallpaperscraft.com/image/black_background_pattern_light_texture_55291_3840x2400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+header {
+    background-image: url(http://cdn.wallpapersafari.com/48/94/BXpilP.jpg);
+    height: 150px;
+    margin-bottom: 30pt;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5pt #8d2018 solid
+}
+
+h1 {
+    font-size: 60pt;
+    color: #8d2018;
+    font-family: "YouMurderer BB";
+    margin-left: 40pt
+}
+
+h2 {
+    text-align: center;
+    padding-right: 40pt;
+    color: #8d2018;
+    font-family: "YouMurderer BB";
+    font-size: 40pt
+}
+
+img {
+    width: 300px; 
+    height: 240px; 
+    overflow: hidden;
+    border: black 10pt solid;
+    
+}
+
+

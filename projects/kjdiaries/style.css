@@ -12,7 +12,6 @@ li {
     margin-top: 10pt;
 }
 
-
 ul.topnav li a {
     text-decoration: none;
     color: black
@@ -21,11 +20,11 @@ ul.topnav li a {
 .topnav {
     margin-top: 8pt
 }
+
 header {
     margin-top: 15pt;
     height: 84pt;
     width: 100%
-    
 }
 
 .searchInput {
@@ -34,7 +33,8 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     position: relative;
-    margin-top: 8pt
+    margin-top: 8pt;
+    border: 1px solid lightgray
 }
 
 firstSlideshowImage {
@@ -57,7 +57,8 @@ footer {
     background-repeat: no-repeat;
     margin-top: 17pt;
     margin-left: 39%;
-    margin-right: 39%
+    margin-right: 39%;
+    border: none
 }
 
 span {
@@ -66,15 +67,15 @@ span {
     display: inline-block;
     position: relative;
     font-family: "Avenir LT Std", Helvetica Neue, sans-serif;
-    color: darkgray; 
+    color: darkgray;
 }
 
 span:after,
-span:before{
-    content:"\00a0\00a0\00a0\00a0\00a0";
+span:before {
+    content: "\00a0\00a0\00a0\00a0\00a0";
     position: absolute;
     height: 5px;
-    border-bottom: 1px solid darkgray ;
+    border-bottom: 1px solid darkgray;
     top: 0;
     width: 100px;
 }
@@ -83,9 +84,10 @@ span:before {
     right: 58%;
     margin-right: 20px;
 }
+
 span:after {
     left: 58%;
-    margin-left: 20px;    
+    margin-left: 20px;
 }
 
 h1 {
@@ -109,7 +111,7 @@ h1 {
 
 .blog1Image {
     padding-top: 35px;
-    width: 100%;  
+    width: 100%;
 }
 
 p {
@@ -124,10 +126,17 @@ button {
     background-color: white;
     color: darkgray;
     font-family: "Bebas Neue Regular", sans-serif;
-    width: 16%;
-    margin-right: 42%;
-    margin-left: 42%;
-    margin-bottom: 15pt;    
+    width: 100pt;
+    margin-right: 62%;
+    margin-left: 38%;
+    margin-bottom: 15pt;
+    border: 1px solid lightgray;
+}
+
+button:hover {
+    color: white;
+    background-color: darkgray;
+    transition: all 0.2s ease-in-out;
 }
 
 h6 {
@@ -144,26 +153,27 @@ h6 {
     display: inline-block;
     position: relative;
     font-family: "Bebas Neue Regular", sans-serif;
-    color: darkgray; 
+    color: darkgray;
 }
 
 .relatedSpan:after,
-.relatedSpan:before{
-    content:"\00a0\00a0\00a0\00a0\00a0";
+.relatedSpan:before {
+    content: "\00a0\00a0\00a0\00a0\00a0";
     position: absolute;
     height: 5px;
-    border-bottom: 1px solid darkgray ;
+    border-bottom: 1px solid darkgray;
     top: 0;
-    width: 330px;
+    width: 310px;
 }
 
 .relatedSpan:before {
     right: 58%;
     margin-right: 20px;
 }
+
 .relatedSpan:after {
     left: 58%;
-    margin-left: 20px;    
+    margin-left: 20px;
 }
 
 .relatedPhotos {
@@ -172,3 +182,11 @@ h6 {
     padding-right: 10pt
 }
 
+.relatedSpan2 {
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid darkgray;
+    width: 730px;
+    margin-top: 14px;
+    float: left;
+}
