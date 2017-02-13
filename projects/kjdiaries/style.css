@@ -190,3 +190,34 @@ h6 {
     margin-top: 14px;
     float: left;
 }
+
+.blackSocialIcons {
+    word-spacing: 13pt;
+    border: 1pt lightgray solid;
+    padding: 20pt;
+    text-align: center;
+    margin-bottom: 25pt
+}
+
+.follow {
+
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: -21pt; 
+}
+
+.subscribeBox {
+    border: 1pt lightgray solid;
+    padding: 20pt;
+    text-align: center;
+}
+
+.emailInput1 {
+    width: 100%;
+    background-image: url(email-icon2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: 10pt;
+}
+

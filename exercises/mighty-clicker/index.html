@@ -5,36 +5,36 @@
     <meta charset="UTF-8">
     <title>Mighty Clicker!</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
 </head>
 
 <body ng-controller="myController">
     <header>
         <div>
-            <h1>Mighty Clicker</h1>
+            <h1 class='title'>Mighty Clicker</h1>
         </div>
     </header>
 
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-3">
-            <h2 ng-model="blue" class="numbers">{{ blueCount }}</h2>
+            <h2 class="numbers">{{ blueCount }}</h2>
         </div>
         <div class="col-sm-2"></div>
         <div class="col-sm-3">
-            <h2 ng-model="red" class="numbers">{{ redCount }}</h2>
+            <h2 class="numbers">{{ redCount }}</h2>
         </div>
         <div class="col-sm-2"></div>
     </div>,
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-3">
-            <button class="blue" ng-click="blueClick(blue, red)">Click Me!</button>
+            <button class="blue" ng-click="blueClick(blueCount, redCount)">Click Me!</button>
         </div>
         <div class="col-sm-2"></div>
         <div class="col-sm-3">
-            <button class="red" ng-click="redClick(red, blue)">Click Me!</button>
+            <button class="red" ng-click="redClick(redCount, blueCount)">Click Me!</button>
         </div>
         <div class="col-sm-2"></div>
     </div>

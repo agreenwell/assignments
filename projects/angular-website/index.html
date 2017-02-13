@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Earthquakes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<ng-view></ng-view>
+
+
+<table ng-controller="EarthquakeController">
+    <tr ng-repeat="x in events">
+        <td>{{ event.feature }}</td>
+        <td>{{ event.type }}</td>
+    </tr>
+</table>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="earthquakes/earthquakes.js"></script>
+<script src="services/api-service.js"></script>
+</body>
+</html>
