@@ -2,6 +2,9 @@ body {
     background-color: #FFFFFF;
 }
 
+header {
+    margin-top: 12pt
+}
 li {
     font-family: "Avenir LT Std", Helvetica Neue, sans-serif;
     letter-spacing: .1em;
@@ -12,6 +15,7 @@ li {
     margin-top: 10pt;
 }
 
+
 ul.topnav li a {
     text-decoration: none;
     color: black
@@ -21,8 +25,8 @@ ul.topnav li a {
     margin-top: 8pt
 }
 
-header {
-    margin-top: 15pt;
+.post {
+    margin-top: 75pt;
     height: 84pt;
     width: 100%
 }
@@ -61,42 +65,86 @@ footer {
     border: none
 }
 
-span {
-    padding-left: 25%;
-    padding-right: 25%;
-    display: inline-block;
-    position: relative;
-    font-family: "Avenir LT Std", Helvetica Neue, sans-serif;
-    color: darkgray;
+.mainImages {
+    margin-top: 40pt
+}
+.relatedPhotos {
+    width: 24%;
+    padding-left: 15pt;
+    padding-right: 5pt
 }
 
-span:after,
-span:before {
-    content: "\00a0\00a0\00a0\00a0\00a0";
-    position: absolute;
+hr {
+    border-color: darkgray;
+    width: 95%
+}
+
+.relatedTop1 {
+    margin-bottom: -15pt
+}
+
+.relatedSpan2 {
+ 
     height: 5px;
     border-bottom: 1px solid darkgray;
-    top: 0;
-    width: 100px;
-}
-
-span:before {
-    right: 58%;
-    margin-right: 20px;
-}
-
-span:after {
-    left: 58%;
-    margin-left: 20px;
+    width: 96%;
+    margin-top: 14px;
 }
 
 h1 {
     text-align: center;
-    font-family: "Bebas Neue Regular", sans-serif;
+    font-family: "BebasNeueBook", sans-serif;
     letter-spacing: .05em;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 40pt;
 }
+h2 {
+    font-family: "BebasNeueLight", sans-serif;
+    letter-spacing: .05em;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+h2:after,
+h2:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 150%;
+    top: 40%;
+    right: 100%;
+    background: darkgray;
+}
+
+h2:after { left: 100%; }
+
+
+h4 {
+    font-family: "BebasNeueLight", sans-serif;
+    letter-spacing: .05em;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+  
+}
+
+/*
+h4:after,
+h4:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 490%;
+    top: 40%;
+    right: 100%;
+    background: darkgray;
+}
+
+h4:after { left: 100%; }
+*/
 
 .bottomH5 {
     text-align: center;
@@ -105,12 +153,9 @@ h1 {
     font-style: italic;
 }
 
-.spanTotal {
-    margin-left: 150pt;
-}
 
 .blog1Image {
-    padding-top: 35px;
+    padding-top: 120px;
     width: 100%;
 }
 
@@ -125,7 +170,7 @@ button {
     padding: 10pt;
     background-color: white;
     color: darkgray;
-    font-family: "Bebas Neue Regular", sans-serif;
+    font-family: "BebasNeueLight", sans-serif;
     width: 100pt;
     margin-right: 62%;
     margin-left: 38%;
@@ -143,73 +188,37 @@ h6 {
     float: right;
 }
 
-.spanTotalRelated {
-    margin-left: 150pt;
-}
-
-.relatedSpan {
-    padding-left: 25%;
-    padding-right: 25%;
-    display: inline-block;
-    position: relative;
-    font-family: "Bebas Neue Regular", sans-serif;
-    color: darkgray;
-}
-
-.relatedSpan:after,
-.relatedSpan:before {
-    content: "\00a0\00a0\00a0\00a0\00a0";
-    position: absolute;
-    height: 5px;
-    border-bottom: 1px solid darkgray;
-    top: 0;
-    width: 310px;
-}
-
-.relatedSpan:before {
-    right: 58%;
-    margin-right: 20px;
-}
-
-.relatedSpan:after {
-    left: 58%;
-    margin-left: 20px;
-}
-
-.relatedPhotos {
-    width: 24%;
-    padding-left: 10pt;
-    padding-right: 10pt
-}
-
-.relatedSpan2 {
-    position: absolute;
-    height: 5px;
-    border-bottom: 1px solid darkgray;
-    width: 730px;
-    margin-top: 14px;
-    float: left;
-}
 
 .blackSocialIcons {
     word-spacing: 13pt;
     border: 1pt lightgray solid;
     padding: 20pt;
     text-align: center;
-    margin-bottom: 25pt
+    margin-bottom: 25pt;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%
 }
 
 .follow {
-
     font-size: 12pt;
-    text-align: center;
-    margin-bottom: -21pt; 
+    margin-bottom: -21pt;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
 
 .subscribeBox {
     border: 1pt lightgray solid;
     padding: 20pt;
     text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 21pt
 }
 
 .emailInput1 {
@@ -220,4 +229,119 @@ h6 {
     border: none;
     margin-top: 10pt;
 }
+
+.wishlist {
+    border: 1pt lightgray solid;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 10%;
+    height: 450px;
+    width: 250pt
+}
+
+.wishlistImg {
+    margin-left: 20%;
+    width: auto;
+    height: 250pt
+}
+
+
+
+.button-lefty {
+    float: left;
+    font-size: 1.5em;
+    color: black;
+}
+
+.button-right {
+    float: right;
+    font-size: 1.5em;
+    color: black
+}
+
+.button-lefty:hover {
+    text-decoration: none;
+}
+
+.button-right:hover {
+    text-decoration: none;
+}
+
+.wishHeader {
+    background-color: white;
+    margin-top: 20p
+}
+
+.favClass {
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10 %;
+    margin-top: 15pt;
+}
+
+.favorite {
+    border: 1pt lightgray solid;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 40pt
+}
+
+.fav {
+    font-size: 12pt;
+    text-align: center;
+    margin-top: -7pt;
+        background-color: white;
+    z-index: 1;
+    position: absolute;
+    right: 40%
+}
+
+.socmed {
+    float: left;
+}
+
+.posts2 {
+    margin-top: -70pt
+}
+
+.posts3 {
+    margin-top: 40pt;
+    margin-bottom: 100pt
+}
+
+h3 {
+    font-family: "BebasNeueLight", sans-serif;
+    color: black;
+    text-align: center
+}
+
+.instagram {
+    padding-bottom: 50pt
+}
+
+.favorite {
+    width: 250pt
+}
+
+.subscribers {
+    width: 310pt;
+}
+
+.followMe {
+    width: 290pt;
+}
+
+.myWishlist {
+    text-align: center
+}
+
+.dateSpan {
+    text-align: center
+}
+
+.spanTotalRelated {
+    text-align: center
+}
+
 
