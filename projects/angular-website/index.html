@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
+
 <head>
     <meta charset="UTF-8">
     <title>Earthquakes</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-<ng-view></ng-view>
-
-
-<table ng-controller="EarthquakeController">
-    <tr ng-repeat="x in events">
-        <td>{{ event.feature }}</td>
-        <td>{{ event.type }}</td>
-    </tr>
-</table>
+    <header>
+        <h1>EARTHQUAKES</h1>
+    </header>
 
 
+    <div class="headerNav">
+        <h2 id="homeNav" class="shake"><a href="#!/">Home</a></h2>
+        <h2 id="latNav" class="shake"><a href="#!/lat-and-long/">Latitude and Longitude Finder</a></h2>
+        <h2 id="cityNav" class="shake"><a href="#!/major-cities/">Major Cities Tracker</a></h2>
+    </div>
+                        <ng-view></ng-view>
+
+    
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
-<script src="app.js"></script>
-<script src="earthquakes/earthquakes.js"></script>
-<script src="services/api-service.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="earthquakes/earthquakes.js"></script>
+    <script src="services/api-service.js"></script>
+    <script src="lat-and-long/lat-and-long.js"></script>
+    <script src="major-cities/major-cities.js"></script>
+
 </body>
+
 </html>

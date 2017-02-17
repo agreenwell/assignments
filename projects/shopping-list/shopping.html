@@ -6,20 +6,16 @@
     <link rel="stylesheet" href="shopping.css">
 </head>
 <body>
-    <h1>Mom's Shopping List</h1>
-    
-    
-     <form>
-         What do we need? <input type="text" name="need" id="need"/>
-         <input type="submit" value="Add to the list!"/>
-     </form>
-    <ul style="list-style-type:disc">
-    <script>
-        document.getElementById("curso").value =
-        document.getElementById("curso").defaultValue = window.location.href.substring(91);
-    </script>
- 
-     
-<script src="shopping.js"></script>
+<div id="myDIV" class="header">
+  <h2>Mom's Shopping List</h2>
+  <input type="text" id="myInput" placeholder="Items...">
+  <button onclick="newElement()" class="addBtn">Add</button>
+</div>
+
+<ul id="myUL">
+
+
+</ul>
+    <script src="shopping.js"></script>
 </body>
 </html>

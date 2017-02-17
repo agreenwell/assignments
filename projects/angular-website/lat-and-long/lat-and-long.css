@@ -18,8 +18,6 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-left: 20pt;
-    margin-right: 20pt;
 }
 body {
     background-color: black
@@ -75,7 +73,5 @@ a:hover {
 }
 
 img {
-    width: 100%;
-    margin-top: 50pt;
-    margin-bottom: 50pt
+    width: 100%
 }

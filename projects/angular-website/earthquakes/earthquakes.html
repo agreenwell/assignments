@@ -1,7 +1,18 @@
-{{ features }} 
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 col-xs-12">
+                <img src="https://blog.genealogybank.com/wp-content/uploads/2014/04/evening-times-newspaper-0418-1906-san-francisco-earthquake.png">
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
 
-
-
-
+    <table>
+        <tr ng-repeat="x in events">
+            <td>{{ event.feature }}</td>
+            <td>{{ event.type }}</td>
+        </tr>
+    </table>
 

@@ -1,0 +1,5 @@
+<input ng-model="lat" placeHolder="Latitude">
+<input ng-model="lon" placeHolder="Longitude">
+<button ng-click="getQuakes(lat, lon)">Submit</button>
+
+<div ng-repeat="earthquake in earthquakes">{{ earthquake.properties.mag }}</div>
