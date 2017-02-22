@@ -1,1 +1,51 @@
-{{ test }}
+
+   <div class="container">
+    <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+            <p class="llpara">The U.S. has several areas that experience more earthquakes and seismic movement than others.  Click on the cities to the left to see some of the more active areas of the country!</p>
+        </div>
+        <div class="col-xs-2"></div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+       <div class="maj">
+        <div class="col-sm-3">
+            <div class="dropdown-content">
+                <a class="locations" ng-repeat="location in locations" ng-click="updateShownCity(location.lat, location.long)">{{location.city}}<br></a>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+           <h5>Location</h5>
+           <br>
+           <br>
+           <br>
+            <div ng-repeat="earthquake in earthquakes">
+                {{ earthquake.properties.place }}</div>
+        </div>
+        <div class="col-sm-1">
+           <h5>Magnitude</h5>
+           <br>
+           <br>
+           <br>
+            <div ng-repeat="earthquake in earthquakes">
+                {{ earthquake.properties.mag }}</div>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+

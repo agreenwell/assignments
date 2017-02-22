@@ -72,7 +72,8 @@ a:hover {
 
 .headerNav {
     text-align: center;
-    margin-top: 20pt
+    margin-top: 20pt;
+    
 }
 
 img {
@@ -80,3 +81,60 @@ img {
     margin-top: 50pt;
     margin-bottom: 50pt
 }
+
+.inputs {
+    text-align: center;
+    margin-top: 50pt;
+    margin-bottom: 70pt
+}
+
+.llpara {
+    margin-top: 50pt;
+    width 60%;
+    color: white;
+    font-family: "my-type-of-font";
+    text-align: center;
+    margin-bottom: 50pt
+}
+
+.results {
+    display: inline;
+}
+
+.locations {
+    cursor: pointer;
+    line-height: 35pt
+}
+
+
+h5 {
+    font-size: 20pt;
+    font-family: "my-type-of-font";
+    float: left;
+    text-decoration: underline
+
+}
+
+
+.latlonresults {
+    color: white;
+    font-family: "my-type-of-font";
+    line-height: 30pt
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+button:hover {
+    background-color: none !important;
+    
+}
+
+.maj {
+    color: white;
+    font-family: "my-type-of-font";
+    line-height: 30pt
+}
+
