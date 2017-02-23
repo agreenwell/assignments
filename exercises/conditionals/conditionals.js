@@ -23,6 +23,8 @@ function monkeyTrouble(aSmile, bSmile){
     }
 };
 
+monkeyTrouble(true,true);
+
 
 
 
@@ -35,6 +37,11 @@ if (hour < 12) {
 } else if (hour > 12 && hour < 17) {
   console.log("Good Afternoon!");
 } else {
-  console.log("Good Morning!");
+  console.log("Good Evening!");
 }
 };
+
+
+
+
+

@@ -11,13 +11,15 @@ var lyrics = ["This", "hit", "that", "ice", "cold",
 var string = ""
 
 
-function printLyrics(x){
+
+
+function printLyric(x){
 for (var i = 0; i < x.length; i++){
     string = string + x[i] + " "
 }
     return string
 }
-console.log(printLyrics(lyrics));
+console.log(printLyric(lyrics));
 
 
 
@@ -33,3 +35,20 @@ for (var i = x.length-1; i >= 0; i--){
     return string
 }
 console.log(printLyrics(lyrics));
+
+
+
+
+
+
+var string = ""
+
+
+function printLyrics2(x){
+for (var i = 0; i < x.length; i=i+2){
+    string = string + x[i] + " "
+}
+    return string
+}
+console.log(printLyrics2(lyrics));
+
