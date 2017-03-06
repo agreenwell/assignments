@@ -1,3 +1,35 @@
 table, th, td {
-    border: 2px solid red
+    border: 5px solid #F5BC6B
+}
+
+body {
+    background-image: url(pizza_background.png);
+    
+}
+
+table {
+    background-color: #7098C7;
+    color: black;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 350pt;
+    font-family: "Arial"
+}
+
+h1 {
+    text-align: center;
+    font-size: 60pt;
+    background-color: #FBE1A1;
+    font-family: "NineteenOhFive";
+    border: black 10pt solid;
+    color: #D03922
+}
+
+img {
+    border: black 20pt solid;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position:absolute
 }

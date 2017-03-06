@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="results">
+        <div class="row">
+            <div class="showExpense">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-4">
+                    <h5>New Expense</h5>
+                    <br>
+                    <br>
+                    <div ng-repeat="expense in expenses">{{ date }}</div>
+                    <div ng-repeat="expense in expenses">{{ store }}</div>
+                    <div ng-repeat="expense in expenses">{{ items }}</div>
+                    <div ng-repeat="expense in expenses">{{ client }}</div>
+                    <div ng-repeat="expense in expenses">{{ subtotal }}</div>
+                    <div ng-repeat="expense in expenses">{{ tax }}</div> Total Expense: {{ total }}
+                    <div ng-repeat="expense in expenses">{{ checkbox1 }}</div>
+                    <div ng-repeat="expense in expenses">{{ checkbox2 }}</div>
+                </div>
+                <div class="col-xs-3"></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Business Expense Tracker</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Business Expense Tracker</h1>
+    </header>
+    <div class="headerNav">
+        <a id="homeNav" class="navBar" href="#!/">Home</a>
+        <a id="newNav" class="navBar" href="#!/new-expenses">New Expenses</a>
+        <a id="expNav" class="navBar" href="#!/expenses">View All Expenses</a>
+    </div>
+
+    <ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="business-tracker/business-tracker.js"></script>
+    <script src="expenses/expenses.js"></script>
+    <script src="new-expenses/new-expenses.js"></script>
+</body>
+
+</html>

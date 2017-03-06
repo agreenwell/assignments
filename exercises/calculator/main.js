@@ -30,3 +30,4 @@ console.log(calculator(3, 3, "mul"));
 console.log(calculator(3, 0, "div"));
 console.log(calculator(10, 2, "div"));
 console.log(calculator(9, 2, "exp"));
+

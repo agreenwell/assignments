@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+            <p class="llpara">Below you are able to enter the latitude and longitude for any location of your choosing. Once entered, we will display results of earthquakes that have taken place within 140 miles of that location as well as the magnitude of listed earthquakes. Give it a try!</p>
+            <p class="llpara">(As a reminder, N and E are positive numbers and S and W are negative)</p>
+        </div>
+        <div class="col-xs-2"></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="inputs">
+                <input id="latitude" ng-model="lat" placeHolder="Latitude">
+                <input id="longitude" ng-model="lon" placeHolder="Longitude">
+                <button ng-click="getQuakes(lat, lon)">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="results">
+        <div class="row">
+            <div class="latlonresults">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-4">
+                    <h5>Location</h5>
+                    <br>
+                    <br>
+                    <div ng-repeat="earthquake in earthquakes">
+                        {{ earthquake.properties.place }}</div>
+                </div>
+                <div class="col-xs-4">
+                    <h5>Magnitude</h5>
+                    <br>
+                    <br>
+                    <div ng-repeat="earthquake in earthquakes">
+                        {{ earthquake.properties.mag }}</div>
+                </div>
+                <div class="col-xs-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
